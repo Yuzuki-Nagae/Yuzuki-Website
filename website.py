@@ -27,7 +27,7 @@ st.header("My favorite anime-related videos")
 images = ["/Users/Yuzuki/Desktop/documents/twiste.png"]
 youtube_videos = [
     "https://www.youtube.com/embed/T8QudIpaq2Y",
-    "https://www.youtube.com/embed/VhneiPkG_W0" 
+    "https://www.youtube.com/embed/VhneiPkG_W0" ]
 cols = st.columns(len(youtube_videos))
 for i, url in enumerate(youtube_videos):
     with cols[i]:
