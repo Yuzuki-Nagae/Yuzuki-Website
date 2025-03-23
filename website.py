@@ -35,9 +35,9 @@ for i, url in enumerate(youtube_videos):
 col1, col2, = st.columns([2, 1])
 with col1: 
     st.write("My favorite anime is Haikyu and Bluelock!")
-    st.link_button("Read More", "https://twisted-wonderland.aniplex.co.jp/")
+    st.link_button("Read More", "https://haikyu-jp.webpkgcache.com/doc/-/s/haikyu.jp/")
 with col2:
-    st.image("https://data.twisted-wonderland.aniplex.co.jp/wp-content/uploads/2019/08/08173427/ogimage_0808.png", width = 300)
+    st.image("https://eplus.jp/s/oki_img/0000168931/bluelock-exhibition/osaka/main_img.jpg", width = 300)
 
 st.header("My favorite anime moments:)")
 col3, col4, = st.columns([1, 2])
