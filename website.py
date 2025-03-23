@@ -27,15 +27,14 @@ st.header("My favorite anime-related videos")
 images = ["/Users/Yuzuki/Desktop/documents/twiste.png"]
 youtube_videos = [
     "https://www.youtube.com/embed/T8QudIpaq2Y",
-    "https://www.youtube.com/embed/5cRfmvnxZ1o"
-]
+    "https://www.youtube.com/embed/VhneiPkG_W0" 
 cols = st.columns(len(youtube_videos))
 for i, url in enumerate(youtube_videos):
     with cols[i]:
         st.video(url)
 col1, col2, = st.columns([2, 1])
 with col1: 
-    st.write("My favorite anime is Haikyu, and the game that I want is Twisted Wonderland:)")
+    st.write("My favorite anime is Haikyu and Bluelock!")
     st.link_button("Read More", "https://twisted-wonderland.aniplex.co.jp/")
 with col2:
     st.image("https://data.twisted-wonderland.aniplex.co.jp/wp-content/uploads/2019/08/08173427/ogimage_0808.png", width = 300)
